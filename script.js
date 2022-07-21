@@ -91,8 +91,6 @@ function filtraUF(){
 		console.log(dropdownUF.value)
 		let dadosCard = dadosTse.filter(function(linha){return (linha.sg_uf == dropdownUF.value) && (linha.nr_turno == obterTurno())})
 		preencheCard(dadosCard)
-	}else{
-		limparResultado()
 	}
 }
 
