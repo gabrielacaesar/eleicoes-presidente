@@ -48,6 +48,10 @@ function obterTurno(){
 	}
 }
 
+for (let round of userRound){
+	round.addEventListener('change', mostraAgregados)
+}
+
 // filtro do local - BR ou ZZ
 let userLocal = document.querySelectorAll('[name=local]')
 function obterLocal(){
@@ -69,6 +73,10 @@ function mostraAgregados(){
 	}
 	else if (obterLocal() == 'BR'){ 
 		let dadosCard = dadosTse.filter(function(linha){return (linha.sg_uf == 'BR') && (linha.nr_turno == obterTurno())})
+		preencheCard(dadosCard)
+	}
+	else if (obterLocal() == 'UF'){ 
+		let dadosCard = dadosTse.filter(function(linha){return (linha.sg_uf == dropdownUF.value) && (linha.nr_turno == obterTurno())})
 		preencheCard(dadosCard)
 	}
 }
@@ -111,6 +119,8 @@ function mostraHover(event){
 	console.log(dadosCard)
 	// 3. agora pega a uf e coloca no hover
 	preencheCard(dadosCard)
+	// atualiza o valor do dropdown de acordo com hover
+	dropdownUF.value = siglaUf
 }
 
 function preencheCard(dados){
