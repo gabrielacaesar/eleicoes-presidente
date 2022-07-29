@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Eleições no Brasil</title>
+	<link rel="stylesheet" href="style.css">
+	<meta name="author" content="Gabriela Caesar">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="eleições, eleição, jair bolsonaro, lula, ciro gomes, andré janones">
+	<meta name="description" content="eleições">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/x-icon" href="../img/favicon/favicon.ico">
+</head>
+<body>
+	
+	<div id="titulo">
+		<h1>Eleições no Brasil</h1>
+		<h2>O comportamento eleitoral dos estados nas eleições presidenciais desde 2002</h2>
+		<p class="author"><a href="https://twitter.com/gabrielacaesar" target="_blank">@gabrielacaesar</a></p>
+	</div>
+
+	<section class="left-box">
+	<p class="orientacao mapa-orientacao">Passe o cursor para selecionar o estado:</p>
+	<section class="mapa">
+		<div id="map-box"></div>
+	</section>
+
+	<section class="uf">
+		<span>UF selecionada: </span><span class="sg_uf"></span>
+		<br>	
+		<span class="qtd_elei_2022_str"></span>
+		<br>
+		<span class="perc_elei_2022_str"></span>
+	</section>
+
+	<p class="orientacao">Clique para mudar o turno:</p>
+	<section class="flex row">
+		<label class="bttn-label">
+			<input class="bttn round-1" value="1" type="radio" name="turno">1º turno</input>
+		</label>
+		<label class="bttn-label">
+			<input checked class="bttn round-2" value="2" type="radio" name="turno">2º turno</input>
+		</label>
+	</section>
+
+	<p class="orientacao">Se preferir, selecione a UF no menu abaixo:</p>
+	<section class="dropdown" onchange="filtraUF()">
+		<select id="uf-brasil">
+			<option selected value="blank">Selecione a UF</option>
+			<option value="AC">Acre</option>
+			<option value="AL">Alagoas</option>
+			<option value="AP">Amapá</option>
+			<option value="AM">Amazonas</option>
+			<option value="BA">Bahia</option>
+			<option value="CE">Ceará</option>
+			<option value="DF">Distrito Federal</option>
+			<option value="ES">Espírito Santo</option>
+			<option value="GO">Goiás</option>
+			<option value="MA">Maranhão</option>
+			<option value="MT">Mato Grosso</option>
+			<option value="MS">Mato Grosso do Sul</option>
+			<option value="MG">Minas Gerais</option>
+			<option value="PA">Pará</option>
+			<option value="PB">Paraíba</option>
+			<option value="PR">Paraná</option>
+			<option value="PE">Pernambuco</option>
+			<option value="PI">Piauí</option>
+			<option value="RJ">Rio de Janeiro</option>
+			<option value="RN">Rio Grande do Norte</option>
+			<option value="RS">Rio Grande do Sul</option>
+			<option value="RO">Rondônia</option>
+			<option value="RR">Roraima</option>
+			<option value="SC">Santa Catarina</option>
+			<option value="SP">São Paulo</option>
+			<option value="SE">Sergipe</option>
+			<option value="TO">Tocantins</option>
+		</select>
+	</section>
+
+	<p class="orientacao">Ou dados de...</p>
+	<section class="bottom-bttn flex row">
+		<label class="bttn-local">
+			<input checked class="bttn data-uf" value="UF" type="radio" name="local">UFs</input>
+		</label>
+		<label class="bttn-local">
+			<input class="bttn data-br" value="BR" type="radio" name="local">Brasil</input>
+		</label>
+		<label class="bttn-local">
+			<input class="bttn data-exterior" value="ZZ" type="radio" name="local">Exterior</input>
+		</label>
+	</section>
+
+</section>
+
+<section class="right-box">
+
+<!-- 2018 -->
+	<section class="flex row">
+		<div id="text_box">
+			<div class="header flex row">
+				<span class="nr_turno_str"></span>
+				<span class="nm_uf"></span>
+				<span class="regiao"></span>
+			</div>
+			<span class="nm_uf_hover"></span>
+			<section class="eleicao_2018">
+			<div class="ano_eleicao">2018</div>
+			</section>
+			<section class="eleicao_2018 dados_cand flex row">
+			<img clas="cand_img" src="../img/fernando-haddad.png" alt="">
+				<div class="cand pt">
+					<span class="candidato_1">Fernando Haddad (PT)</span>
+					<br>
+					<!--<span>Resultado: </span><span class="situacao_1"></span>
+					<br>-->
+					<span class="perc_1"></span><span>% dos votos válidos</span>
+					<br>
+					<span class="votos_1"></span><span> votos</span>
+				</div>
+			<img clas="cand_img" src="../img/jair-bolsonaro.png" alt="">
+				<div class="cand psl">
+					<span class="candidato_2">Jair Bolsonaro (PSL)</span>
+					<br>
+					<!--<span>Resultado: </span><span class="situacao_2"></span>
+					<br>-->
+					<span class="perc_2"></span><span>% dos votos válidos</span>
+					<br>
+					<span class="votos_2"></span><span> votos</span>
+				</div>
+				<div class="cand dif">
+					<div>Diferença</div>
+					<ul>
+						<li><span class="diferenca_pp"></span><span> p.p.</span></li>
+						<li><span class="diferenca_absoluta"></span><span> votos</span></li>
+					</ul>
+				</div>
+		</section>
+<!-- 2014 -->
+<section class="flex row">
+	<div id="text_box">
+		<section class="eleicao_2014">
+		<div class="ano_eleicao">2014</div>
+		</section>
+		<section class="eleicao_2014 dados_cand flex row">
+		<img clas="cand_img" src="../img/dilma.png" alt="">
+			<div class="cand pt">
+				<span class="candidato_1">Dilma (PT)</span>
+				<br>
+				<!--<span>Resultado: </span><span class="situacao_1"></span>
+				<br>-->
+				<span class="perc_1"></span><span>% dos votos válidos</span>
+				<br>
+				<span class="votos_1"></span><span> votos</span>
+			</div>
+			<img clas="cand_img" src="../img/aecio-neves.png" alt="">
+			<div class="cand psdb">
+				<span class="candidato_2">Aécio Neves (PSDB)</span>
+				<br>
+				<!--<span>Resultado: </span><span class="situacao_2"></span>
+				<br>-->
+				<span class="perc_2"></span><span>% dos votos válidos</span>
+				<br>
+				<span class="votos_2"></span><span> votos</span>
+			</div>
+			<div class="cand dif">
+				<div>Diferença</div>
+				<ul>
+					<li><span class="diferenca_pp"></span><span> p.p.</span></li>
+					<li><span class="diferenca_absoluta"></span><span> votos</span></li>
+				</ul>
+			</div>
+	</section>
+
+<!-- 2010 -->
+<section class="flex row">
+	<div id="text_box">
+		<section class="eleicao_2010">
+		<div class="ano_eleicao">2010</div>
+		</section>
+		<section class="eleicao_2010 dados_cand flex row">
+		<img clas="cand_img" src="../img/dilma.png" alt="">
+			<div class="cand pt">
+				<span class="candidato_1">Dilma (PT)</span>
+				<br>
+				<!--<span>Resultado: </span><span class="situacao_1"></span>
+				<br>-->
+				<span class="perc_1"></span><span>% dos votos válidos</span>
+				<br>
+				<span class="votos_1"></span><span> votos</span>
+			</div>
+			<img clas="cand_img" src="../img/jose-serra.png" alt="">
+			<div class="cand psdb">
+				<span class="candidato_2">José Serra (PSDB)</span>
+				<br>
+				<!--<span>Resultado: </span><span class="situacao_2"></span>
+				<br>-->
+				<span class="perc_2"></span><span>% dos votos válidos</span>
+				<br>
+				<span class="votos_2"></span><span> votos</span>
+			</div>
+			<div class="cand dif">
+				<div>Diferença</div>
+				<ul>
+					<li><span class="diferenca_pp"></span><span> p.p.</span></li>
+					<li><span class="diferenca_absoluta"></span><span> votos</span></li>
+				</ul>
+			</div>
+	</section>
+
+<!-- 2006 -->
+<section class="flex row">
+	<div id="text_box">
+		<section class="eleicao_2006">
+		<div class="ano_eleicao">2006</div>
+		</section>
+		<section class="eleicao_2006 dados_cand flex row">
+			<img clas="cand_img" src="../img/lula.png" alt="">
+			<div class="cand pt">
+				<span class="candidato_1">Lula (PT)</span>
+				<br>
+				<!--<span>Resultado: </span><span class="situacao_1"></span>
+				<br>-->
+				<span class="perc_1"></span><span>% dos votos válidos</span>
+				<br>
+				<span class="votos_1"></span><span> votos</span>
+			</div>
+			<img clas="cand_img" src="../img/geraldo-alckmin.png" alt="">
+			<div class="cand psdb">
+				<span class="candidato_2">Geraldo Alckmin (PSDB)</span>
+				<br>
+				<!--<span>Resultado: </span><span class="situacao_2"></span>
+				<br>-->
+				<span class="perc_2"></span><span>% dos votos válidos</span>
+				<br>
+				<span class="votos_2"></span><span> votos</span>
+			</div>
+			<div class="cand dif">
+				<div>Diferença</div>
+				<ul>
+					<li><span class="diferenca_pp"></span><span> p.p.</span></li>
+					<li><span class="diferenca_absoluta"></span><span> votos</span></li>
+				</ul>
+			</div>
+	</section>
+
+<!-- 2002 -->
+<section class="flex row">
+	<div id="text_box">
+		<section class="eleicao_2002">
+		<div class="ano_eleicao">2002</div>
+		</section>
+		<section class="eleicao_2002 dados_cand flex row">
+		<img clas="cand_img" src="../img/lula.png" alt="">
+			<div class="cand pt">
+				<span class="candidato_1">Lula (PT)</span>
+				<br>
+				<!--<span>Resultado: </span><span class="situacao_1"></span>
+				<br>-->
+				<span class="perc_1"></span><span>% dos votos válidos</span>
+				<br>
+				<span class="votos_1"></span><span> votos</span>
+			</div>
+			<img clas="cand_img" src="../img/jose-serra.png" alt="">
+			<div class="cand psdb">
+				<span class="candidato_1">José Serra (PSDB)</span>
+				<br>
+				<!--<span>Resultado: </span><span class="situacao_2"></span>
+				<br>-->
+				<span class="perc_2"></span><span>% dos votos válidos</span>
+				<br>
+				<span class="votos_2"></span><span> votos</span>
+			</div>
+			<div class="cand dif">
+				<div>Diferença</div>
+				<ul>
+					<li><span class="diferenca_pp"></span><span> p.p.</span></li>
+					<li><span class="diferenca_absoluta"></span><span> votos</span></li>
+				</ul>
+			</div>
+	</section>
+</section>
+	<footer class="flex column">
+		<p>Os dados são do <a href="https://dadosabertos.tse.jus.br/">Portal de Dados Abertos do Tribunal Superior Eleitoral</a>. O código do site e o script em R para tratar os dados estão no <a href="https://github.com/gabrielacaesar/eleicoes-presidente">GitHub</a>. O cálculo do percentual dos votos válidos considera a quantidade de votos recebidas por todos os candidatos. Por isso, no primeiro turno, a soma dos dois candidatos exibidos não dá 100%. Este projeto optou por exibir no primeiro turno apenas os dois candidatos que disputaram o segundo turno das eleições. A plataforma foi desenvolvida por <a href="https://gabrielacaesar.github.io/">Gabriela Caesar</a> em junho e julho de 2022 durante o <a href="https://www.insper.edu.br/pos-graduacao/master-em-jornalismo-de-dados-automacao-e-data-storytelling/">Master no Insper</a>, com ajuda de <a href="https://github.com/tiagombp">Tiago Maranhão</a> e <a href="https://github.com/vsueiro">Vinicius Sueiro</a>.</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
