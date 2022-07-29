@@ -1,6 +1,6 @@
 ## Eleições no Brasil
 
-##### Painel com dados do TSE mostram como cada estado votou nas cinco últimas eleições presidenciais
+##### Painel com dados do TSE mostra como cada estado votou nas cinco últimas eleições presidenciais
 
 #### Responsável pelo projeto: [Gabriela Caesar](https://gabrielacaesar.github.io/)
 #### Contribuições de: Tiago Maranhão e Vinicius Suiero
