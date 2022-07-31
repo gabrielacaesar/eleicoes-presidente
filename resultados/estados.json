@@ -1,0 +1,164 @@
+[
+    {
+        "codigo_uf": "12",
+        "nm_uf": "Acre",
+        "perc_elei_2022_opacity": "0.38",
+        "perc_elei_2022_opacity_norm": 0.0
+    },
+    {
+        "codigo_uf": "27",
+        "nm_uf": "Alagoas",
+        "perc_elei_2022_opacity": "1.49",
+        "perc_elei_2022_opacity_norm": 0.01
+    },
+    {
+        "codigo_uf": "13",
+        "nm_uf": "Amazonas",
+        "perc_elei_2022_opacity": "1.69",
+        "perc_elei_2022_opacity_norm": 0.02
+    },
+    {
+        "codigo_uf": "16",
+        "nm_uf": "Amapá",
+        "perc_elei_2022_opacity": "0.35",
+        "perc_elei_2022_opacity_norm": 0.0
+    },
+    {
+        "codigo_uf": "29",
+        "nm_uf": "Bahia",
+        "perc_elei_2022_opacity": "7.22",
+        "perc_elei_2022_opacity_norm": 0.07
+    },
+    {
+        "codigo_uf": "23",
+        "nm_uf": "Ceará",
+        "perc_elei_2022_opacity": "4.36",
+        "perc_elei_2022_opacity_norm": 0.04
+    },
+    {
+        "codigo_uf": "53",
+        "nm_uf": "Distrito Federal",
+        "perc_elei_2022_opacity": "1.41",
+        "perc_elei_2022_opacity_norm": 0.01
+    },
+    {
+        "codigo_uf": "32",
+        "nm_uf": "Espírito Santo",
+        "perc_elei_2022_opacity": "1.87",
+        "perc_elei_2022_opacity_norm": 0.02
+    },
+    {
+        "codigo_uf": "52",
+        "nm_uf": "Goiás",
+        "perc_elei_2022_opacity": "3.11",
+        "perc_elei_2022_opacity_norm": 0.03
+    },
+    {
+        "codigo_uf": "21",
+        "nm_uf": "Maranhão",
+        "perc_elei_2022_opacity": "3.22",
+        "perc_elei_2022_opacity_norm": 0.03
+    },
+    {
+        "codigo_uf": "31",
+        "nm_uf": "Minas Gerais",
+        "perc_elei_2022_opacity": "10.41",
+        "perc_elei_2022_opacity_norm": 0.1
+    },
+    {
+        "codigo_uf": "50",
+        "nm_uf": "Mato Grosso do Sul",
+        "perc_elei_2022_opacity": "1.28",
+        "perc_elei_2022_opacity_norm": 0.01
+    },
+    {
+        "codigo_uf": "51",
+        "nm_uf": "Mato Grosso",
+        "perc_elei_2022_opacity": "1.58",
+        "perc_elei_2022_opacity_norm": 0.02
+    },
+    {
+        "codigo_uf": "15",
+        "nm_uf": "Pará",
+        "perc_elei_2022_opacity": "3.89",
+        "perc_elei_2022_opacity_norm": 0.04
+    },
+    {
+        "codigo_uf": "25",
+        "nm_uf": "Paraíba",
+        "perc_elei_2022_opacity": "1.98",
+        "perc_elei_2022_opacity_norm": 0.02
+    },
+    {
+        "codigo_uf": "26",
+        "nm_uf": "Pernambuco",
+        "perc_elei_2022_opacity": "4.49",
+        "perc_elei_2022_opacity_norm": 0.04
+    },
+    {
+        "codigo_uf": "22",
+        "nm_uf": "Piauí",
+        "perc_elei_2022_opacity": "1.65",
+        "perc_elei_2022_opacity_norm": 0.02
+    },
+    {
+        "codigo_uf": "41",
+        "nm_uf": "Paraná",
+        "perc_elei_2022_opacity": "5.42",
+        "perc_elei_2022_opacity_norm": 0.05
+    },
+    {
+        "codigo_uf": "33",
+        "nm_uf": "Rio de Janeiro",
+        "perc_elei_2022_opacity": "8.20",
+        "perc_elei_2022_opacity_norm": 0.08
+    },
+    {
+        "codigo_uf": "24",
+        "nm_uf": "Rio Grande do Norte",
+        "perc_elei_2022_opacity": "1.63",
+        "perc_elei_2022_opacity_norm": 0.02
+    },
+    {
+        "codigo_uf": "11",
+        "nm_uf": "Rondônia",
+        "perc_elei_2022_opacity": "0.79",
+        "perc_elei_2022_opacity_norm": 0.01
+    },
+    {
+        "codigo_uf": "14",
+        "nm_uf": "Roraima",
+        "perc_elei_2022_opacity": "0.23",
+        "perc_elei_2022_opacity_norm": 0.0
+    },
+    {
+        "codigo_uf": "43",
+        "nm_uf": "Rio Grande do Sul",
+        "perc_elei_2022_opacity": "5.49",
+        "perc_elei_2022_opacity_norm": 0.05
+    },
+    {
+        "codigo_uf": "42",
+        "nm_uf": "Santa Catarina",
+        "perc_elei_2022_opacity": "3.51",
+        "perc_elei_2022_opacity_norm": 0.04
+    },
+    {
+        "codigo_uf": "28",
+        "nm_uf": "Sergipe",
+        "perc_elei_2022_opacity": "1.07",
+        "perc_elei_2022_opacity_norm": 0.01
+    },
+    {
+        "codigo_uf": "35",
+        "nm_uf": "São Paulo",
+        "perc_elei_2022_opacity": "22.16",
+        "perc_elei_2022_opacity_norm": 0.22
+    },
+    {
+        "codigo_uf": "17",
+        "nm_uf": "Tocantins",
+        "perc_elei_2022_opacity": "0.70",
+        "perc_elei_2022_opacity_norm": 0.01
+    }
+]
