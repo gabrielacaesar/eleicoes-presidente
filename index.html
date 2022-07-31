@@ -10,29 +10,28 @@
 	<meta name="keywords" content="eleições, eleição, jair bolsonaro, lula, ciro gomes, andré janones">
 	<meta name="description" content="eleições">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+	<link rel="icon" type="image/x-icon" href="../img/favicon/favicon.ico">
 </head>
 <body>
-	<section class="flex column">
+	
+	<div id="titulo">
 		<h1>Eleições no Brasil</h1>
 		<h2>O comportamento eleitoral dos estados nas eleições presidenciais desde 2002</h2>
 		<p class="author"><a href="https://twitter.com/gabrielacaesar" target="_blank">@gabrielacaesar</a></p>
+	</div>
+
+	<section class="left-box">
+	<p class="orientacao mapa-orientacao">Passe o cursor para selecionar o estado:</p>
+	<section class="mapa">
+		<div id="map-box"></div>
 	</section>
 
-	<section class="flex full-box">
-	<section class="left-box">
-
-		<section class="uf">
-			<span>UF selecionada: </span><span class="sg_uf"></span>
-			<br>	
-			<span class="qtd_elei_2022_str"></span>
-			<br>
-			<span class="perc_elei_2022_str"></span>
-		</section>
-
-	<p class="orientacao mapa-orientacao">Abaixo passe o mouse em cima da UF no mapa:</p>
-	<section class="flex column">
-		<div id="map-box"></div>
+	<section class="uf">
+		<span>UF selecionada: </span><span class="sg_uf"></span>
+		<br>	
+		<span class="qtd_elei_2022_str"></span>
+		<br>
+		<span class="perc_elei_2022_str"></span>
 	</section>
 
 	<p class="orientacao">Clique para mudar o turno:</p>
@@ -109,7 +108,7 @@
 			<div class="ano_eleicao">2018</div>
 			</section>
 			<section class="eleicao_2018 dados_cand flex row">
-			<img clas="cand_img" src="img/fernando-haddad.png" alt="">
+			<img clas="cand_img" src="../img/fernando-haddad.png" alt="">
 				<div class="cand pt">
 					<span class="candidato_1">Fernando Haddad (PT)</span>
 					<br>
@@ -119,7 +118,7 @@
 					<br>
 					<span class="votos_1"></span><span> votos</span>
 				</div>
-			<img clas="cand_img" src="img/jair-bolsonaro.png" alt="">
+			<img clas="cand_img" src="../img/jair-bolsonaro.png" alt="">
 				<div class="cand psl">
 					<span class="candidato_2">Jair Bolsonaro (PSL)</span>
 					<br>
@@ -144,7 +143,7 @@
 		<div class="ano_eleicao">2014</div>
 		</section>
 		<section class="eleicao_2014 dados_cand flex row">
-		<img clas="cand_img" src="img/dilma.png" alt="">
+		<img clas="cand_img" src="../img/dilma.png" alt="">
 			<div class="cand pt">
 				<span class="candidato_1">Dilma (PT)</span>
 				<br>
@@ -154,7 +153,7 @@
 				<br>
 				<span class="votos_1"></span><span> votos</span>
 			</div>
-			<img clas="cand_img" src="img/aecio-neves.png" alt="">
+			<img clas="cand_img" src="../img/aecio-neves.png" alt="">
 			<div class="cand psdb">
 				<span class="candidato_2">Aécio Neves (PSDB)</span>
 				<br>
@@ -180,7 +179,7 @@
 		<div class="ano_eleicao">2010</div>
 		</section>
 		<section class="eleicao_2010 dados_cand flex row">
-		<img clas="cand_img" src="img/dilma.png" alt="">
+		<img clas="cand_img" src="../img/dilma.png" alt="">
 			<div class="cand pt">
 				<span class="candidato_1">Dilma (PT)</span>
 				<br>
@@ -190,7 +189,7 @@
 				<br>
 				<span class="votos_1"></span><span> votos</span>
 			</div>
-			<img clas="cand_img" src="img/jose-serra.png" alt="">
+			<img clas="cand_img" src="../img/jose-serra.png" alt="">
 			<div class="cand psdb">
 				<span class="candidato_2">José Serra (PSDB)</span>
 				<br>
@@ -216,7 +215,7 @@
 		<div class="ano_eleicao">2006</div>
 		</section>
 		<section class="eleicao_2006 dados_cand flex row">
-			<img clas="cand_img" src="img/lula.png" alt="">
+			<img clas="cand_img" src="../img/lula.png" alt="">
 			<div class="cand pt">
 				<span class="candidato_1">Lula (PT)</span>
 				<br>
@@ -226,7 +225,7 @@
 				<br>
 				<span class="votos_1"></span><span> votos</span>
 			</div>
-			<img clas="cand_img" src="img/geraldo-alckmin.png" alt="">
+			<img clas="cand_img" src="../img/geraldo-alckmin.png" alt="">
 			<div class="cand psdb">
 				<span class="candidato_2">Geraldo Alckmin (PSDB)</span>
 				<br>
@@ -252,7 +251,7 @@
 		<div class="ano_eleicao">2002</div>
 		</section>
 		<section class="eleicao_2002 dados_cand flex row">
-		<img clas="cand_img" src="img/lula.png" alt="">
+		<img clas="cand_img" src="../img/lula.png" alt="">
 			<div class="cand pt">
 				<span class="candidato_1">Lula (PT)</span>
 				<br>
@@ -262,7 +261,7 @@
 				<br>
 				<span class="votos_1"></span><span> votos</span>
 			</div>
-			<img clas="cand_img" src="img/jose-serra.png" alt="">
+			<img clas="cand_img" src="../img/jose-serra.png" alt="">
 			<div class="cand psdb">
 				<span class="candidato_1">José Serra (PSDB)</span>
 				<br>
