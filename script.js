@@ -5,7 +5,7 @@ let dadosIbge;
 // mapa svg para exibir na pagina
 async function loadMapData(){
 	let mapaUrl = 'https://servicodados.ibge.gov.br/api/v3/malhas/paises/BR?formato=image/svg+xml&qualidade=intermediaria&intrarregiao=UF';
-	let arquivoTse ='../resultados/election-data-4.json';
+	let arquivoTse ='../resultados/election-data-5.json';
 	let urlIbge = 'https://servicodados.ibge.gov.br/api/v1/localidades/estados'
 	let arquivoEstados ='../resultados/estados.json';
 	
