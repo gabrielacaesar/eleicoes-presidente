@@ -5,8 +5,9 @@ let dadosIbge;
 // mapa svg para exibir na pagina
 async function loadMapData(){
 	let mapaUrl = 'https://servicodados.ibge.gov.br/api/v3/malhas/paises/BR?formato=image/svg+xml&qualidade=intermediaria&intrarregiao=UF';
-	let arquivoTse =`./resultados/election-data-4.json`;
+	let arquivoTse ='../resultados/election-data-4.json';
 	let urlIbge = 'https://servicodados.ibge.gov.br/api/v1/localidades/estados'
+	let arquivoEstados ='../resultados/estados.json';
 	
 	// svg
 	let mapaSvg = await fetch(mapaUrl)
@@ -22,6 +23,11 @@ async function loadMapData(){
 	let dadosJsonIbge = await fetch(urlIbge);
 	dadosIbge = await dadosJsonIbge.json();
 	console.log(dadosIbge)
+	
+	// estados (opacidade)
+	let dadosJsonEstados = await fetch(arquivoEstados);
+	dadosEstados = await dadosJsonEstados.json();
+	console.log('Estados' + dadosEstados)
 
 	// coloca o mapa no local certo
     let mapaConteudo = document.querySelector('#map-box');
@@ -34,8 +40,15 @@ async function loadMapData(){
 	for (let uf of ufs){
 		// 3. dispara a funcao mostraHover(), criada fora
 		uf.onmouseover = mostraHover
+		// 4. para cada estado, colocar a opacidade como o % de participação no eleitorado
+		dadosEstados.forEach(estado => {
+			if (uf.id == estado.codigo_uf){
+				uf.setAttribute('fill-opacity', estado.perc_elei_2022_opacity_norm * 5);
+			}
+		});
 	}	
 }
+
 loadMapData();
 
 // filtro do round - turno
@@ -227,4 +240,3 @@ function preencheCard(dados){
 	document.querySelector('.eleicao_2002 > .dif > ul > li > .diferenca_absoluta').textContent = dados_2002[0].diferenca_absoluta
 
 }
-
