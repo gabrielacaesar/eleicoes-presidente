@@ -148,7 +148,7 @@ path:hover {
 }
 
 .orientacao {
-    font-style: italic;
+    /*font-style: italic;*/
     padding-top: 5px;
     font-size: 15px;
 }
