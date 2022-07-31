@@ -2,7 +2,7 @@
 
 #### Painel com dados do TSE mostra como cada estado votou nas cinco últimas eleições presidenciais
 
-##### Responsável pelo projeto: [Gabriela Caesar](https://gabrielacaesar.github.io/)
+##### Autora e responsável pelo projeto: [Gabriela Caesar](https://gabrielacaesar.github.io/)
 ##### Contribuições de: [Tode Araújo](https://github.com/todearaujo), [Tiago Maranhão](https://github.com/tiagombp) e [Vinicius Sueiro](https://github.com/vsueiro)
 
 ##### Nossas @ no Twitter: [Gabriela Caesar](https://twitter.com/gabrielacaesar), autora e responsável; [Tode Araújo](https://twitter.com/todearaujo), colaborador; [Tiago Maranhão](https://twitter.com/tiagombp), colaborador; [Vinicius Sueiro](https://twitter.com/viniciussueiro), colaborador; e [Master no Insper](https://twitter.com/insperjor).
