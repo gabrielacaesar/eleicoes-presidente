@@ -5,7 +5,7 @@
 ##### Responsável pelo projeto: [Gabriela Caesar](https://gabrielacaesar.github.io/)
 ##### Contribuições de: [Tode Araújo](https://github.com/todearaujo), [Tiago Maranhão](https://github.com/tiagombp) e [Vinicius Sueiro](https://github.com/vsueiro)
 
-##### Nossas @ no Twitter: [Gabriela Caesar, autora e responsável](https://twitter.com/gabrielacaesar); [Tode Araújo, colaborador](https://twitter.com/todearaujo), [Tiago Maranhão, colaborador](https://twitter.com/tiagombp), [Vinicius Sueiro, colaborador](https://twitter.com/viniciussueiro) e [Master no Insper, instituição](https://twitter.com/insperjor)
+##### Nossas @ no Twitter: [Gabriela Caesar](https://twitter.com/gabrielacaesar), autora e responsável; [Tode Araújo](https://twitter.com/todearaujo), colaborador; [Tiago Maranhão](https://twitter.com/tiagombp), colaborador; [Vinicius Sueiro](https://twitter.com/viniciussueiro), colaborador; e [Master no Insper](https://twitter.com/insperjor), instituição.
 
 ##### Acesse em https://eleicoespresidente.com/
 ##### Data de lançamento do projeto: agosto de 2022
