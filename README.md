@@ -10,7 +10,7 @@
 ##### Acesse em https://eleicoespresidente.com/
 ##### Data de lançamento do projeto: agosto de 2022
 
-###### A poucos dias do início da campanha eleitoral, o projeto facilita o acesso aos dados das disputas presidenciais anteriores para mostrar como os estados votam desde 2002. 
+###### A poucos dias do início da campanha eleitoral, o projeto facilita o acesso aos dados das disputas presidenciais para mostrar como os estados votam desde 2002. 
 
 ##### As eleições presidenciais no Brasil são marcadas pela rivalidade entre PT e PSDB (e mais recentemente entre o bolsonarismo e o PT). Por isso, o projeto foca nos candidatos que foram ao segundo turno mesmo ao mostrar os dados do primeiro turno.
 
