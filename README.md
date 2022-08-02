@@ -8,7 +8,7 @@
 ##### Nossas @ no Twitter: [Gabriela Caesar](https://twitter.com/gabrielacaesar), autora e responsável; [Tode Araújo](https://twitter.com/todearaujo), colaborador; [Tiago Maranhão](https://twitter.com/tiagombp), colaborador; [Vinicius Sueiro](https://twitter.com/viniciussueiro), colaborador; e [Master no Insper](https://twitter.com/insperjor).
 
 ##### Acesse em https://eleicoespresidente.com/
-##### Data de lançamento do projeto: agosto de 2022
+##### Data de lançamento do projeto: 2 de agosto de 2022
 
 ###### A poucos dias do início da campanha eleitoral, o projeto facilita o acesso aos dados das disputas presidenciais para mostrar como os estados votam desde 2002. 
 
